@@ -4,8 +4,8 @@ const.readline=require('readline').createInterface({
 });
 
 readline.question('Sisestage astendaja:',astendaja=>{
-	readline.question('Sisestage astme alus:',astmeAlus=>
+	readline.question('Sisestage astme alus:',astmeAlus=>{
 		let.result=Math.pow(astmeAlus,astendaja)
 		console.log(result);
-		readline.close();
+		readline.close();}
 	});
