@@ -3,7 +3,7 @@ const readline=require('readline').createInterface({
 	output: process.stdin,
 });
 readline.question('Sisestage õhutemperatuur:',õhutemperatuur=>{
-	let temperatuur=parseFloat(õhutemperatuur);
+	let temperatuur=(number(õhutemperatuur));
     
     if (temperatuur <= 4.0) {
        console.log("On jäätumise oht");
