@@ -8,4 +8,4 @@ readline.question('Sisestage astendaja:',astendaja=>{
 		let.result=Math.pow(astmeAlus,astendaja)
 		console.log(result);
 		readline.close();
-	})
+	});
